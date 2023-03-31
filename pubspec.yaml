@@ -1,0 +1,240 @@
+name: tmhci
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.3.0
+  video_player: ^2.4.8
+  bible: ^1.0.0
+  flutter_staggered_grid_view: ^0.2.7
+  auto_size_text: ^1.1.2
+  path:
+  share: ^0.6.1
+  multiavatar: ^0.1.5
+  font_awesome_flutter: ^9.2.0
+  badges: ^2.0.2
+  audio_service: ^0.18.7
+  audio_session: ^0.1.10
+  connectivity_plus: ^2.3.5
+  device_info_plus: ^4.0.0
+  extended_image: ^6.2.1
+  file_picker: ^4.6.0
+  flutter_dialogs: ^2.1.1
+  flutter_downloader: ^1.8.0+1
+  flutter_html: ^3.0.0-alpha.5
+  flutter_html_svg: ^3.0.0-alpha.3
+  flutter_html_table: ^3.0.0-alpha.3
+  flutter_spinkit: ^5.0.0
+  html: ^0.15.0
+  just_audio: ^0.9.28
+  logging: ^1.0.2
+  meta: ^1.7.0
+  mp3_info: ^0.2.0
+  path_provider: ^2.0.11
+  path_provider_platform_interface: ^2.0.4
+  percent_indicator: 4.2.2
+  permission_handler: ^9.2.0
+  rxdart: ^0.27.4
+  scrollable_positioned_list: ^0.3.2
+  sembast: ^3.1.2
+  share_plus: ^4.0.9
+  shared_preferences: ^2.0.12
+  uni_links: ^0.5.1
+  url_launcher: ^6.1.5
+  tuple: ^2.0.1
+  provider: ^6.0.4
+  flutter_email_sender: ^5.2.0
+  image_picker: ^0.8.6
+  expandable: ^5.0.1
+  settings_ui: ^2.0.2
+  flutter_profile_picture: ^2.0.0
+  flushbar: ^1.10.4
+  flutter_dotenv: ^3.1.0
+  barcode_scan2: ^4.2.1
+  list_expandable: ^0.0.3
+  faq: ^0.0.4
+  edge_detection: ^1.0.9
+  intl: ^0.15.7
+  audioplayers: ^1.1.1
+  easy_sidemenu: ^0.4.1
+  http: ^0.13.5
+  fluttertoast: ^8.0.9
+  mysql: ^0.0.1
+  google_fonts: ^3.0.1
+  page_transition: ^2.0.9
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  reference_parser: ^3.0.0
+  assets_audio_player: 3.0.6
+  gallery_saver: ^2.3.2
+  hooks_riverpod: ^1.0.3
+  qr_code_scanner: ^1.0.1
+  qr_flutter: ^4.0.0
+  line_awesome_flutter: ^2.0.0
+  dio: ^4.0.0
+  shimmer: ^2.0.0
+  queries: any
+  xml: any
+  global_configuration: any
+  flutter_slidable: any
+  after_layout: any
+  #zefyr: ^0.5.0
+  material_design_icons_flutter: ^3.2.3
+  #sqflite: ^1.1.6+4
+  #share: ^0.6.2+1
+  #swipedetector: ^1.2.0
+  swipedetector: ^1.2.0
+  #photo_view: ^0.5.0
+  photo_view: ^0.10.3
+  flutter_tts: ^1.3.0
+  #path_provider: ^1.3.0
+  #webview_flutter: ^0.3.15+1
+  #device_info: ^1.0.0
+  lpinyin: ^1.1.0
+  #pinyinizer: ^1.0.2
+  lemmatizer: ^0.0.1
+  popup_banner: ^1.0.0
+  splashscreen: ^1.3.5
+  webview_flutter: ^4.0.6
+  responsive_framework: ^0.2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.2.0
+  flutter_native_splash: ^2.2.18
+  hive_generator: ^1.1.3
+  pedantic: ^1.9.0
+flutter_native_splash:
+  color: "#2a4904"
+  image: asset/tmhci.png
+  android_12:
+
+  android: true
+  ios: true
+
+
+
+
+
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/
+    - asset/bibles/ESV.xml
+    - asset/bibles/KJV.xml
+    - asset/bibles/NIV.xml
+    - asset/bibles/NLT.xml
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+#  fonts:
+#  #### Inter - Sans Serif typeface
+#   - family: Inter
+#     fonts:
+#       - asset: fonts/Inter-Bold.otf
+#         weight: 800
+#       - asset: fonts/Inter-BoldItalic.otf
+#         weight: 800
+#         style: italic
+#       - asset: fonts/Inter-SemiBold.otf
+#         weight: 600
+#       - asset: fonts/Inter-SemiBoldItalic.otf
+#         weight: 600
+#         style: italic
+#       - asset: fonts/Inter-Medium.otf
+#         weight: 500
+#       - asset: fonts/Inter-MediumItalic.otf
+#         weight: 500
+#         style: italic
+#       - asset: fonts/Inter-Regular.otf
+#         weight: 400
+#       - asset: fonts/Inter-Italic.otf
+#         weight: 400
+#         style: italic
+#   #### New York - Serif typeface
+#   - family: New York
+#     fonts:
+#       - asset: fonts/NewYork.ttf
+#       - asset: fonts/NewYorkItalic.ttf
+#         style: italic
+#       - asset: fonts/NewYork.ttf
+#         weight: 800
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
