@@ -6,19 +6,24 @@ import 'package:hive_flutter/adapters.dart';
 import 'bible/reading.dart';
 import 'homePage.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:flutter/services.dart';
+import 'package:sizer/sizer.dart';
+
 
 
 
 
 Future<void> main()  async {
-  WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
 
-   await Hive.openBox('notes');
+  await Hive.openBox('notes');
 
-
-
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]).then((value) =>
+  runApp(const MyApp()));
 
 
 }
@@ -36,20 +41,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      builder: (context, child) => ResponsiveWrapper.builder(
-          child,
-          maxWidth: 1200,
-          minWidth: 480,
-          defaultScale: true,
-          breakpoints: [
-          ResponsiveBreakpoint.autoScale(700),
-            ResponsiveBreakpoint.resize(480, name: MOBILE),
-            ResponsiveBreakpoint.autoScale(800, name: TABLET),
-            ResponsiveBreakpoint.resize(1000, name: DESKTOP),
-          ],
-
-      ),
-          home: HomePage(),
+      home: HomePage() ,
     );
   }
 }
