@@ -24,6 +24,7 @@ Future<void> main()  async {
     DeviceOrientation.portraitDown,
   ]).then((value) =>
   runApp(const MyApp()));
+   
 
 
 }
